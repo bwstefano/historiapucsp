@@ -44,7 +44,7 @@
  *          http://vimeo.com/40648169
  *          http://vimeo.com/channels/staffpicks/38843628
  *          http://vimeo.com/groups/surrealism/videos/36516384
- *          http://player.vimeo.com/video/45074303
+ *          https://player.vimeo.com/video/45074303
  *      Metacafe
  *          http://www.metacafe.com/watch/7635964/dr_seuss_the_lorax_movie_trailer/
  *          http://www.metacafe.com/watch/7635964/
