@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{font-family: 'Josefin Sans', sans-serif; background:url(../imagens/bg.jpg);}
+
+.navbar{margin-bottom:0px;}
+.navbar-default{background:#000; border:none;}
+.navbar-nav{float:none; margin:0 auto; text-align:center;}
+
+.navbar-nav > li{float:none; display:inline-block;}
+.navbar-default .navbar-nav > li > a{color:#fff; font-size:13px; text-transform:uppercase;}
+.navbar-default .navbar-nav > li > a:hover{color:#236f74;}
+.navbar-default .navbar-nav > .active > a{background:none; color:#fff;}
+
+/** I: HOME **/
+#home{background:no-repeat top center;  min-height:1039px; background-size:cover;}
+#home .uma_historia{margin:63px auto 0px; width:445px;}
+#home .redesSocias{width:100%; text-align:center; text-transform:uppercase; font-size:10px; color:#fff; letter-spacing:3px; margin-top:50px;}
+
+#home .redesSocias .icones a{display:inline-block; width:34px; height:33px; background-position:top center; margin:10px 16px; background-repeat:no-repeat;}
+#home .redesSocias .icones a.twitter{background-image:url(../imagens/icon_twitter.png);}
+#home .redesSocias .icones a.facebook{background-image:url(../imagens/icon_facebook.png)}
+#home .redesSocias .icones a.googlePlus{background-image:url(../imagens/icon_google.png)}
+#home .redesSocias .icones a:hover{opacity:0.5}
+/** F: HOME **/
+
+/** I: EPISODIOS **/
+#episodios{background-repeat:no-repeat; min-height:1118px;}
+#episodios .titulo_episodios{background:url(../imagens/titulo_episodios.png) no-repeat top center; margin-top:0px; padding-top:30px; text-transform:uppercase; font-weight:100; text-align:center; font-size:76px; color:#FFF; padding-top:131px; padding-bottom:146px; letter-spacing:11px; text-shadow:4px 2px 0px rgba(17, 107, 113, 04)}
+#episodios .bg_episodios{background:url(../imagens/bg_box_espisodios.png) no-repeat top center; min-height:811px; margin-top:-63px;}
+
+.relacao_episodios{margin:0 auto; padding-top:60px;}
+
+@media (max-width: 635px) {
+	.relacao_episodios{width:404px;}
+}
+
+@media (min-width: 635px) {
+	.relacao_episodios{width:614px;}
+}
+
+@media (max-width: 431px) {
+	.relacao_episodios{width:212px;}
+}
+
+#boxs_episodios{margin:0px; padding:0px;}
+#boxs_episodios li{float:left; padding:0px; width:190px;  height:190px; margin:6px; background-color:#000; list-style:none; background-size:auto 100%; background-position:center center; background-repeat:no-repeat;
+transition: background-size .5s ease-out; -moz-transition: background-size .5s ease-out; -webkit-transition: background-size .5s ease-out; -o-transition: background-size .5s ease-out;}
+#boxs_episodios li a .nome_episodio{text-align:center; width:174px; height:174px; margin:8px; background-color:rgba(17, 107, 113, 0.9); color:#fff; font-size:14px; text-transform:uppercase; padding-top:20px; opacity:0; text-decoration:none; transition: opacity .5s ease-out; -moz-transition: opacity .5s ease-out; -webkit-transition: opacity .5s ease-out; -o-transition: opacity .5s ease-out;}
+	
+#boxs_episodios li a .nome_episodio:hover{opacity:1;}
+#boxs_episodios li:hover{background-size:auto 120%;}
+
+
+
+/*** I: PAGINACAO ***/
+.holder {margin:15px 0; clear:both; text-align:right;}
+.holder a {font-size:17px; cursor:pointer; margin:0 2px; width:19px; height:19px; text-align:center; display:inline-block; line-height:21px; color:#1b8d93; text-decoration:none; text-align:center; font-weight:bold;}
+.holder a:hover, .holder a.jp-current  {background-color:#1b8d93 ; color:#fff;}
+
+.holder a.jp-disabled{opacity:0.2;}
+.holder a.jp-disabled:hover{background:none !important; color:#1b8d93  !important;}
+/*** F: PAGINACAO ***/
+
+/** F: EPISODIOS **/
+
+/** I: QUEM SOMOS **/
+#bg_quemsomos{background:url(../imagens/bg_quemsomos.png) no-repeat top center; min-height:685px; padding-top:640px;}
+#quemsomos h1.titulo_quemsomos{font-size:76px; letter-spacing:20px; color:#cfba43; font-weight:100; text-transform:uppercase; text-align:center;  padding-top:30px;}
+.bloco_texto_quemSomos{max-width:685px; margin:0 auto; }
+/** F: QUEM SOMOS **/
+
+
+/** I: CONTATO **/
+#bg_contato{background:url(../imagens/bg_contato.png) no-repeat top center; min-height:423px; padding-top:603px; padding-bottom:200px}
+#contato h1.titulo{font-size:76px; letter-spacing:20px; color:#cfba43; font-weight:100; text-transform:uppercase; text-align:center; padding-top:30px;}
+
+#contato form{width:350px; margin:0 auto;}
+#contato form input{width:350px; height:30px; background:#1c6268; border:0px; color:#fff; padding:5px;}
+#contato form label{width:350px; font-size:17px; text-transform:uppercase; font-weight:100; margin-top:15px;}
+#contato form textarea{width:350px; height:170px; background:#1c6268; border:0px; color:#fff; padding:5px; padding-bottom:55px;}
+#contato .bto_eviar{background:#cfba43; border-radius:360px; color:#fff; text-decoration:none; width:90px; height:90px; display:block; text-align:center; line-height:97px; margin:-50px auto 0px; z-index:1000; position:relative}
+#contato form input:focus, #contato form textarea:focus{background-color:#333;}
+
+#contato .bto_eviar:hover{background-color:#333; color:#cfba43;}
+
+#contato label.error{color:#ff0000; font-size:15px; text-transform:none; font-weight:bold;}
+/** F: CONTATO**/
+
+/** I: PAGINA EPISODIOS **/
+.conteudo_episodios h1{font-family: 'Josefin Sans', sans-serif; font-weight: 300; font-size: 50px; text-align: center; margin: 40px;}
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; } .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.conteudo_episodios .texto{padding:30px 30px 0px; font-size: 17px; line-height: 23px;}
+.conteudo_episodios .texto p{padding:15px 0px;}
+
+.conteudo_episodios .texto .referencias{font-size:12px; line-height:normal;}
+#galleria{height:400px}
+#galleria2{height:400px}
+
+
+#barra_footer{
+	width: 100%;
+	background: #cfba43;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+
+#barra_footer a{
+	color: #fff;
+	display: inline-block;
+	padding: 10px;
+	background: #1c6268;
+	margin: 0 10px;
+
+}
+
+.alinhar_esquerda{float: left; padding-right: 20px; padding-bottom: 20px;}
+.alinhar_direita{float: right; padding-left: 20px; padding-bottom: 20px;}
+
